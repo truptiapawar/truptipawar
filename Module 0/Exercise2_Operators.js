@@ -6,11 +6,11 @@ console.log(currentTime > 9 && currentTime < 17);  // Used Logical operator &&
 var currentTime = 7;  // less than 9 case
 console.log(currentTime > 9 || currentTime < 17);
 var currentTime = 20; // greater than 17 case
-console.log(currentTime > 9 || currentTime > 17);
+console.log(currentTime > 9 || currentTime > 17); 
 console.log(currentTime < 9 || currentTime < 17); // output False case 
 
 //The modulus operator(%): a small restaurant that has 4 chairs per table, and a total of 5 tables, suddenly receives 22 guests.How many guests will not be able to sit down in the restaurant?
-console.log(22%5);
+console.log(22%5); //2
 
 //The addition assignment operator, += : You are counting the number of overtime hours worked in a week.
 var mon = 1;
@@ -34,7 +34,7 @@ longString += " upon";
 longString += " a";
 longString += " time";
 longString += "...";
-console.log(longString); // "Once upon a time..."
+console.log(longString); // "Once upon a time..." 
 
 /*
 You are coding an RPG game, where each character has certain skill levels based on the value saved in their score.
@@ -43,7 +43,7 @@ Use console.log() that includes the string "Mid-level skills:" and compares the 
 The expected output in the console should be: "Mid-level skills: true".
 */
 var score = 8;
-console.log("Mid-level skills:", (score > 0 && score < 10));
+console.log("Mid-level skills:", (score > 0 && score < 10)); //Mid-level skills: true
 
 /*
 Imagine you are coding a video game. Currently, you’re about to code some snippets related to the game over condition.
@@ -52,8 +52,30 @@ Next, you should write a piece of code that could be used to determine if the ga
 */
 var timeRemaining= 0;
 var energy= 10;
-console.log("Game over:", (timeRemaining == 0 || energy == 0));
+console.log("Game over:", (timeRemaining == 0 || energy == 0)); //Game over: true
+
+/*Console log the result of adding two numbers, 5 and 10, using the + operator*/
+console.log(5+10); //15
+
+/* 
+Code three variables:
+The first variable should be a string with the following value: "Now in ". Name the variable now.
+The second variable should be a number with the value: 3. Name the variable three.
+The third variable should a string with the following value: "D!". Name the variable d.
+Console log the following code: now + three + d.
+*/
+var now = "Now in ";
+var three = 3;
+var d = "D!";
+console.log (now + three + d); // Now in 3D!
 
 /*
-
-*/
+Code a new variable and name it counter, assigning it to the value of 0.
+On the next line, use the += operator to increase the value of counter by 5.
+On the next line, use the += operator to increase the value of counter by 3.
+On the fourth line, console log the value of the counter variable.
+ */
+var counter =0;
+counter += 5;
+counter += 3;
+console.log (counter); // 8
