@@ -42,3 +42,18 @@ Create a variable named  score and set it to  8
 Use console.log() that includes the string "Mid-level skills:" and compares the score variable to above 0 and below 10 using the && operator
 The expected output in the console should be: "Mid-level skills: true".
 */
+var score = 8;
+console.log("Mid-level skills:", (score > 0 && score < 10));
+
+/*
+Imagine you are coding a video game. Currently, you’re about to code some snippets related to the game over condition.
+You need to code a new variable named timeRemaining and set it to 0. You also need to code a new variable named energy and set it to 10.
+Next, you should write a piece of code that could be used to determine if the game is over, based on whether either the value of the timeRemaining variable is 0 or the value of the energy variable is 0.
+*/
+var timeRemaining= 0;
+var energy= 10;
+console.log("Game over:", (timeRemaining == 0 || energy == 0));
+
+/*
+
+*/
