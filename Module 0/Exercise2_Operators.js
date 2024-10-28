@@ -104,3 +104,8 @@ console.log ("Is", num2, "an even number?", result2);
 
 //You need to code a small program that takes a number and determines if it's an even number (like 2, 4, 6, 8, 10).
 var num1= 0;
+var num2= -2;
+var result1 = ((num1%2) == 0);
+var result2 = ((num2%2) == 0);
+console.log("Is", num1, "an even number?", result1);
+console.log ("Is", num2, "an even number?", result2);
