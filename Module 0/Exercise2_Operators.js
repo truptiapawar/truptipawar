@@ -109,3 +109,20 @@ var result1 = ((num1%2) == 0);
 var result2 = ((num2%2) == 0);
 console.log("Is", num1, "an even number?", result1);
 console.log ("Is", num2, "an even number?", result2);
+
+//Arithmetic Operators Example
+let a = 3;
+let value = (100 + 50) * a;
+console.log(value); // 450
+
+//Exponentiation Operator
+let x = 5;
+let z = x ** 2; // 25
+let s = 5;
+let l = Math.pow(s,2); // 25
+// Exponentiation Assignment
+let y = 5;
+y **=2; // 25
+//JavaScript Array includes()
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.includes("Mango"); // True
