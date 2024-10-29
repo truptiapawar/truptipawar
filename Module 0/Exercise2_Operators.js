@@ -126,3 +126,9 @@ y **=2; // 25
 //JavaScript Array includes()
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.includes("Mango"); // True
+
+// Conditional (Ternary) Operator :Print if person is young/old enough to vote 
+// syntax: variablename = (condition) ? value1:value2 
+let age = 20;
+let voteable = (age < 18) ? "Too young":"Old enough";
+console.log(voteable, "to vote");
