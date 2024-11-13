@@ -1,0 +1,16 @@
+/*
+const calculator = function myFunction(a, b) // function expression
+{
+    const add = a+b; // block variable
+    return add; // function block 
+}
+
+//const calculator = myFunction (3,4);
+//console.log(myFunction (3,4));
+console.log(calculator(3,4));
+
+const x = (x, y) => x + y;
+console.log(x(3,5));
+*/
+
+
