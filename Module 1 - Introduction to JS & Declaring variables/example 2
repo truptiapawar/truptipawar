@@ -1,0 +1,8 @@
+function Sum(a, b) {
+    return a+b;
+};
+
+let value1 = Sum(1,2);
+console.log("Sum of 1,2 = ", value1);
+let value2 = Sum(3,4);
+console.log("Sum of 3,4 = ", value2);
