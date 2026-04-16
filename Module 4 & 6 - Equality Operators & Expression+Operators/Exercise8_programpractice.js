@@ -6,7 +6,3 @@ console.log ("value in array =", c[i]);
 }
 }
 paramarr(farr);
-
-
-
-

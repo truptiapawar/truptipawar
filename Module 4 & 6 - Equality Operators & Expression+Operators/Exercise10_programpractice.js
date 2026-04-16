@@ -7,4 +7,3 @@ function determineevenoroddnumber(a)
   {console.log("Number is odd number");}
 }
 determineevenoroddnumber(13);
-
